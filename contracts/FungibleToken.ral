@@ -1,0 +1,12 @@
+import "std/fungible_token_interface"
+
+Contract TomatoCoin() implements IFungibleToken {
+  // function to get total supply
+
+  // function to get symbol of the token
+
+  // function to get name of the token
+
+  // function to set decimal of the token
+
+}
