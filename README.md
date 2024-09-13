@@ -1,6 +1,6 @@
-# Tomato Coin
+# Create Your Alpehium Fungible Token
 
-This project helps you create a Fungible token on the Alephium Blockchain. The src folder includes the scripts for minting and transferring tokens created by the TomatoCoin.ral contract.
+This project is a starter code that can be used to create a Fungible token on the Alephium Blockchain. The src folder includes the commented scripts for minting and transferring tokens which needs to completed.
 
 ## Install
 
