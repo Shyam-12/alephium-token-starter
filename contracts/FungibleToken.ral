@@ -1,12 +1,21 @@
 import "std/fungible_token_interface"
 
+// Replace the name of the coin with any name You like 
 Contract TomatoCoin() implements IFungibleToken {
   // function to get total supply
+  // Write a public fn named "getTotalSupply" which takes no arguments and returns a U256 value i.e. the total supply value.
+  // Basically returning a number
 
-  // function to get symbol of the token
+  // function to get symbol of the token - This will represent the symbol of Your Token
+  // Write a public fn named "getSymbol" which takes no arguments and returns a type of ByteVec string i.e. the symbol.
+  // Example of returning -> return b`tmt`
 
   // function to get name of the token
+  // Write a public fn named "getName" which takes no arguments and returns a type of ByteVec string i.e. the name.
+  // Example of returning -> return b`TomatoCoin`
 
   // function to set decimal of the token
+  // Write a public fn named "getDecimals" which takes no arguments and returns a type of U256 value i.e. the decimal.
+  // Basically returning a number
 
 }
