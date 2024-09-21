@@ -15,15 +15,15 @@ async function mintYourCoin() {
 
   // Private key of your wallet here
 
-  // We need to create a signer which will sign the transaction
+  // We need to create a signer which will sign the transaction - Using PrivateKeyWallet interface
 
-  // The amount we want to issue to the receiver
+  // The amount we want to issue to the receiver - issueAmount
 
-  // The address of the receiver
+  // The address of the receiver - issueAmountTo
 
-  // Deploy and Get an instance of the PotatoCoin contract
+  // Deploy and Get an instance of the PotatoCoin contract - Instance from the artifacts - signer, initialFields, issuance
 
-  // Get the token id from potatoCoin contract instance
+  // Get the token id from potatoCoin contract instance - contractId from the instance
 
   // console log them to check - The TokenId and ContractAddress
   console.log('Token Id: ', )
