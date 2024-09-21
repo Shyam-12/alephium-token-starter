@@ -16,13 +16,13 @@ async function transferYourCoin() {
 
   // We need to create a signer which will sign the transaction
 
-  // Token Contract Id which we want to Transfer
+  // Token Contract Id which we want to Transfer - Copy it from the last code
 
   // The address of the receiver
 
-  // Transfer token from sender to receiver
+  // Transfer token from sender to receiver - using signer and sendAndSubmitTransferFunction - sender, destinations: [address, alphToAmount, tokens: [{id,amount}]
 
-  // Get the token balance of the receiver using web3
+  // Get the token balance of the receiver using web3 - web3.nodeprovider.addresses.addressBalance
 }
 
 // Call the above function
