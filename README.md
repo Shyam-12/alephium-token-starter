@@ -8,9 +8,15 @@ This project is a starter code that can be used to create a Fungible token on th
 npm install
 ```
 
-## Start a local devnet for testing and development
+## Running the Devnet
 
-Please refer to the documentation here: https://wiki.alephium.org/full-node/devnet
+```
+1. Inside a folder, Run `git clone https://github.com/alephium/alephium-stack.git`.
+2. cd `alephium-stack`.
+3. cd `devnet`.
+4. run `docker compose up -d`.
+5. Wait until your devnet server starts, Open Docker Desktop.
+```
 
 ## Compile
 
@@ -25,3 +31,4 @@ npx @alephium/cli@latest compile
 ```
 npx @alephium/cli@latest test
 ```
+
