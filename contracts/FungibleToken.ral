@@ -1,7 +1,7 @@
 import "std/fungible_token_interface"
 
 // Replace the name of the coin with any name You like 
-Contract TomatoCoin() implements IFungibleToken {
+Contract FungibleToken() implements IFungibleToken {
   // function to get total supply
   // Write a public fn named "getTotalSupply" which takes no arguments and returns a U256 value i.e. the total supply value.
   // Basically returning a number
