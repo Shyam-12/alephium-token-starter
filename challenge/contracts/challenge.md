@@ -4,7 +4,7 @@
 
 ### Problem:
 
-You need to create a simple token contract called `BasicTokenContract` like the one we built with 4 functions and make the following changes to that contract. This contract should allow:
+You need to create a simple token contract called `BasicTokenContract` with the base contract given below and make the following changes to that contract. This contract should allow:
 
 - **mint** (create) new tokens - add tokens to the supply.
 - **burn** (destroy) tokens they own - remove tokens from the supply.

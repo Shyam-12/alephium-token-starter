@@ -1,0 +1,19 @@
+import "std/fungible_token_interface"
+
+Contract TokenFaucet implements IFungibleToken {
+    pub fn getTotalSupply() -> U256 {
+        return "1000"
+    }
+
+    pub fn getSymbol() -> ByteVec {
+        return b`HCOIN`
+    }
+
+    pub getName() -> ByteVec {
+        return b`HelloCoin`
+    }
+
+    pub fn getDecimals() -> U256 {
+        return 2.5
+    }
+}

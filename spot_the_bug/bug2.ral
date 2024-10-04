@@ -1,0 +1,20 @@
+contract SimpleVoting {
+    let votesInFavor: U256 = 0
+    let votesAgainst: U256 = 0
+ 
+    // Public function to cast a vote
+    fn castVote(voteInFavor: Bool) -> () {
+       // Update the vote counts based on the input
+       if voteInFavor {
+          votesInFavor = votesInFavor + 1
+       } else {
+          votesAgainst = votesAgainst + 1
+       }
+    }
+ 
+    // Public function to get the current vote tally
+    pub fn getVoteTally() {
+       return (votesInFavor, votesAgainst)
+    }
+ }
+ 
